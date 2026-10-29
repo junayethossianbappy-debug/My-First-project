@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Component</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="My-nav">
+
+    <!-- Navigation Bar -->
+    <nav class="w-full bg-[#111111] border-b border-sky-500/80 px-6 py-3 flex items-center justify-between">
+
+        <!-- Left Section: Logo & User Avatar -->
+        <div class="flex items-center space-x-3">
+            <!-- Yellow Circular Logo -->
+            <div
+                class="w-12 h-12 rounded-full bg-[#ffb703] flex flex-col items-center justify-center p-1 text-black font-extrabold shadow-md cursor-pointer">
+                <i class="fa-solid fa-car text-lg leading-none"></i>
+                <span class="text-[10px] tracking-tighter leading-none mt-0.5">bruz.</span>
+            </div>
+
+            <!-- Avatar Button -->
+            <div
+                class="w-10 h-10 rounded-full bg-[#222222] ring-1 ring-zinc-700 flex items-center justify-center cursor-pointer hover:bg-zinc-800 transition">
+                <div
+                    class="w-7 h-7 rounded-full bg-purple-600 flex items-center justify-center text-white font-semibold text-sm">
+                    A
+                </div>
+            </div>
+        </div>
+
+        <!-- Center Section: Navigation Links -->
+        <div class="hidden md:flex items-center space-x-8 text-white font-bold text-sm tracking-wide">
+            <a href="#" class="hover:text-amber-400 transition-colors">Home</a>
+            <a href="#" class="hover:text-amber-400 transition-colors">Our Offering</a>
+            <a href="#" class="hover:text-amber-400 transition-colors">About Us</a>
+        </div>
+
+        <!-- Right Section: Action Button -->
+        <div>
+            <a href="#"
+                class="bg-[#ffb703] hover:bg-amber-500 text-black font-bold text-sm px-6 py-2.5 rounded-lg transition duration-200 inline-block shadow">
+                Contact Us
+            </a>
+        </div>
+
+    </nav>
+
+    <nav>
+        <h1>Here is my banner section</h1>
+        <img src="./Image/heroBook.png">
+    </nav>
+
+</body>
+
+</html>
